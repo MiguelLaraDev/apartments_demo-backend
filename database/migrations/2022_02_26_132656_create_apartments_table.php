@@ -16,6 +16,7 @@ class CreateApartmentsTable extends Migration
         Schema::create('apartments', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('landlord');
             $table->boolean('available');
             $table->timestamps();
         });

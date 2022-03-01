@@ -11,6 +11,7 @@ class Apartment extends Model
 
     protected $fillable = [
         'title',
+        'landlord',
         'available'
     ];
 }

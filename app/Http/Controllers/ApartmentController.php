@@ -27,6 +27,7 @@ class ApartmentController extends Controller
     {
         $request->validate([
             'title' => 'required',
+            'landlord' => 'required',
             'available' => 'boolean'
         ]);
 
